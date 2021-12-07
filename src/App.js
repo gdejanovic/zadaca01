@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import toCelsius from './celsius'
+import { square, round, day } from './utilModules'
+console.log(toCelsius(100));
+console.log(square(9),round(2.9),day)
 
 function App() {
   return (
@@ -9,6 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <span id="hook"></span>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -20,6 +25,9 @@ function App() {
       </header>
     </div>
   );
+
 }
+
+
 
 export default App;
