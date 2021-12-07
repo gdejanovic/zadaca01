@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import toCelsius from './celsius'
 import { square, round, day } from './utilModules'
-console.log(toCelsius(100));
-console.log(square(9),round(2.9),day)
+const cel=(toCelsius(100));
+const group=(square(9),round(2.9),day)
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit {cel} and save to reload.{group}
         </p>
         <span id="hook"></span>
         <a
