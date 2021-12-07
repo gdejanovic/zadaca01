@@ -3,20 +3,20 @@ import './App.css';
 import toCelsius from './celsius'
 import { square, round, day } from './utilModules'
 const cel=(toCelsius(100));
-const group=(square(9),round(2.9),day)
-
+const group=(day)
+const sq = square(9);
+const rnd = round(2.9);
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit {cel} and save to reload.{group}
+          It's {cel} deg Celsius and the day is {group}. Square is {sq} to reload it takes {rnd} seconds. 
         </p>
-        <span id="hook"></span>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://xhamster.com"
           target="_blank"
           rel="noopener noreferrer"
         >
